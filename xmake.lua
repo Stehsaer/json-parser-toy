@@ -1,5 +1,5 @@
 add_rules("mode.debug", "mode.release")
-add_requires("gtest 1.17.0")
+add_requires("gtest[main] 1.17.0")
 
 set_policy("build.c++.modules", true)
 set_languages("c++23")
